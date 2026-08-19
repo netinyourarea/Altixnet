@@ -52,9 +52,7 @@ function ContactPage() {
             <ul className="mt-8 space-y-5 text-sm">
               <li className="flex items-start gap-3">
                 <Phone className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                <a href="tel:+18005550142" className="hover:text-primary">
-                  +1 (800) 555-0142
-                </a>
+                <span>xxx-xxx-xxxx</span>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
