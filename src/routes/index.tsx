@@ -174,6 +174,12 @@ function Home() {
               <CTALink to="/contact">
                 Check Availability <ArrowRight className="ml-2 h-4 w-4" />
               </CTALink>
+              <a
+                href="tel:+18884788140"
+                className="inline-flex min-h-11 items-center justify-center rounded-full glass px-7 text-sm font-semibold tracking-wide text-ink-foreground transition-all duration-300 hover:-translate-y-0.5"
+              >
+                Call (888) 478-8140
+              </a>
               <CTALink to="/internet" variant="ghost-dark">
                 Explore Services
               </CTALink>
@@ -431,6 +437,12 @@ function Home() {
             </p>
             <div className="mt-10 flex flex-wrap gap-3">
               <CTALink to="/contact">Check Availability</CTALink>
+              <a
+                href="tel:+18884788140"
+                className="inline-flex min-h-11 items-center justify-center rounded-full glass px-7 text-sm font-semibold tracking-wide text-ink-foreground transition-all duration-300 hover:-translate-y-0.5"
+              >
+                Call (888) 478-8140
+              </a>
               <CTALink to="/wifi" variant="ghost-dark">
                 Wi-Fi guidance
               </CTALink>
@@ -509,6 +521,12 @@ function Home() {
               >
                 Check Availability
               </Link>
+              <a
+                href="tel:+18884788140"
+                className="inline-flex min-h-11 items-center justify-center rounded-full border border-white/60 px-7 text-sm font-semibold text-white transition-transform hover:-translate-y-0.5"
+              >
+                Call (888) 478-8140
+              </a>
               <CTALink to="/about" variant="ghost-dark">
                 About Altix Net
               </CTALink>

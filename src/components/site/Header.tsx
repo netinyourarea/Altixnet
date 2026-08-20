@@ -57,9 +57,20 @@ export function Header() {
               {item.label}
             </Link>
           ))}
+          <a
+            href="tel:+18884788140"
+            className={cn(
+              "ml-2 inline-flex min-h-10 items-center rounded-full px-5 text-sm font-semibold transition-colors",
+              scrolled
+                ? "border border-primary/30 text-primary hover:bg-accent"
+                : "border border-white/30 text-white hover:bg-white/10",
+            )}
+          >
+            (888) 478-8140
+          </a>
           <Link
             to="/contact"
-            className="ml-2 inline-flex min-h-10 items-center rounded-full bg-primary px-5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-violet"
+            className="inline-flex min-h-10 items-center rounded-full bg-primary px-5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-violet"
           >
             Check Availability
           </Link>
@@ -102,6 +113,12 @@ export function Header() {
             >
               Check Availability
             </Link>
+            <a
+              href="tel:+18884788140"
+              className="mt-3 inline-flex min-h-11 items-center justify-center rounded-full border border-primary/30 px-5 text-sm font-semibold text-primary"
+            >
+              Call (888) 478-8140
+            </a>
           </nav>
         </div>
       )}

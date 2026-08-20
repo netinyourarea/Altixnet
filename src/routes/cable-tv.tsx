@@ -52,6 +52,12 @@ function CableTvPage() {
         alt="Living room with a large television glowing in violet light"
       >
         <CTALink to="/contact">Compare packages</CTALink>
+        <a
+          href="tel:+18884788140"
+          className="ml-3 inline-flex min-h-11 items-center justify-center rounded-full border border-primary/30 px-7 text-sm font-semibold text-primary transition-all duration-300 hover:-translate-y-0.5 hover:bg-accent"
+        >
+          Call (888) 478-8140
+        </a>
       </PageHero>
 
       <Section>

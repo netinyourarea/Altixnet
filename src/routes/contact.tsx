@@ -52,7 +52,9 @@ function ContactPage() {
             <ul className="mt-8 space-y-5 text-sm">
               <li className="flex items-start gap-3">
                 <Phone className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                <span>xxx-xxx-xxxx</span>
+                <a href="tel:+18884788140" className="hover:text-primary">
+                  (888) 478-8140
+                </a>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
@@ -115,12 +117,20 @@ function ContactPage() {
                       className="mt-2 w-full resize-none rounded-xl border border-input bg-background px-4 py-2.5 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring"
                     />
                   </label>
-                  <button
-                    type="submit"
-                    className="inline-flex min-h-11 items-center justify-center rounded-full bg-primary px-7 text-sm font-semibold text-primary-foreground transition-colors hover:bg-violet"
-                  >
-                    Check Availability
-                  </button>
+                  <div className="flex flex-wrap gap-3">
+                    <button
+                      type="submit"
+                      className="inline-flex min-h-11 items-center justify-center rounded-full bg-primary px-7 text-sm font-semibold text-primary-foreground transition-colors hover:bg-violet"
+                    >
+                      Check Availability
+                    </button>
+                    <a
+                      href="tel:+18884788140"
+                      className="inline-flex min-h-11 items-center justify-center rounded-full border border-primary/30 px-7 text-sm font-semibold text-primary transition-colors hover:bg-accent"
+                    >
+                      Call (888) 478-8140
+                    </a>
+                  </div>
                 </form>
               )}
             </div>

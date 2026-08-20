@@ -9,6 +9,7 @@ import {
 
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
+import { SupportPopup } from "@/components/site/SupportPopup";
 
 function NotFoundComponent() {
   return (
@@ -91,6 +92,7 @@ function RootComponent() {
         <Outlet />
       </main>
       <Footer />
+      <SupportPopup />
     </QueryClientProvider>
   );
 }
